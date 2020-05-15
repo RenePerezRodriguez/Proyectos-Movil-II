@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BoliviaActivity">
+    tools:context=".BoliviaActivity"
+    android:screenOrientation="portrait">
+
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgbolvia"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
