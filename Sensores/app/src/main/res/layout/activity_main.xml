@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="500dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="397dp"
+        android:layout_height="355dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
@@ -20,6 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467"
         tools:ignore="MissingConstraints">
 
         <TableLayout
@@ -39,6 +42,7 @@
                     android:layout_height="80dp"
                     android:layout_column="0"
                     android:background="#FFFFFF"
+                    android:contentDescription="@string/paisbol_string"
                     android:onClick="bolivia"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/bolivia" />
@@ -55,6 +59,7 @@
                     android:layout_height="80dp"
                     android:layout_column="0"
                     android:background="#FFFFFF"
+                    android:contentDescription="@string/paisarg_string"
                     android:onClick="argentina"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/argentina" />
@@ -72,6 +77,7 @@
                     android:layout_height="80dp"
                     android:layout_column="0"
                     android:background="#FFFFFF"
+                    android:contentDescription="@string/paisper_string"
                     android:onClick="peru"
                     android:scaleType="centerCrop"
                     app:srcCompat="@mipmap/peru" />
@@ -83,4 +89,28 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_string"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="salir"
+        android:text="@string/salir_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.175" />
 </androidx.constraintlayout.widget.ConstraintLayout>

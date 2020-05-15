@@ -28,4 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, PeruActivity.class);
         startActivity(intent);
     }
+    public void salir(View view)
+    {
+        finish();
+    }
 }

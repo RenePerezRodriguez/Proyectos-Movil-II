@@ -2,6 +2,7 @@ package com.example.sensores;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -68,5 +69,11 @@ public class BoliviaActivity extends AppCompatActivity implements  SensorEventLi
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
+    }
+
+    public void salir(View view){
+
+        Intent intent = new Intent(BoliviaActivity.this, MainActivity.class);
+        startActivity(intent);
     }
 }

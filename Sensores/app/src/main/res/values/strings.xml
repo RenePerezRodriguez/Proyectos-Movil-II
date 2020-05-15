@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Sensores</string>
+    //menu
+    <string name="paisbol_string">Bolivia</string>
+    <string name="paisarg_string">Argentina</string>
+    <string name="paisper_string">Peru</string>
+    // bolivia
+    <string name="banderabol_string">Bandera bolivia</string>
+    <string name="mapa_bol">Mapa</string>
+    <string name="persona_sting">Personaje</string>
+    //argentina
+    <string name="banderaarg_string">Bandera argentina</string>
+    <string name="mapa_arg">Mapa</string>
+    <string name="persona1_sting">Personaje</string>
+    //peru
+    <string name="banderaper_string">Bandera peru</string>
+    <string name="mapa_per">Mapa</string>
+    <string name="persona2_sting">Personaje</string>
+    //salir
+    <string name="salir_string">Salir</string>
+
+    //menu
+    <string name="volvermenu_string">Volver al menu</string>
+
+    //text
+    <string name="texto_string">Eliga un pais para comenzar</string>
 </resources>
