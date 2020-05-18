@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SoundProximity</string>
+    <string name="ayuda_String">Un click en este boton para todos los sonidos</string>
+    <string name="buttonStopSong_String">Stop</string>
+</resources>
