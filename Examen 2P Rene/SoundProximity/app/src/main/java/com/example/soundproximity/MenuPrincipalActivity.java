@@ -77,8 +77,10 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 {
                     int[] sonidos = new int[]{chicken,cow,sheep,car,bus};
                     int sonidoAleatorio = sonidos[random.nextInt(sonidos.length)];
-                    soundPool.play(sonidoAleatorio, 1,1, 1, 1, 0);
+                    soundPool.play(sonidoAleatorio, 1,1, 1, 0, 0);
+                    getWindow().getDecorView().setBackgroundColor(Color.YELLOW);
                 }else {
+                    getWindow().getDecorView().setBackgroundColor(Color.WHITE);
                 }
             }
 
@@ -99,8 +101,11 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 {
                     int[] sonidos = new int[]{chicken,cow,sheep};
                     int sonidoAleatorioAnimales = sonidos[random.nextInt(sonidos.length)];
-                    soundPool.play(sonidoAleatorioAnimales, 1,1, 1, 1, 0);                }else {
-                    getWindow().getDecorView().setBackgroundColor(Color.GREEN);
+                    soundPool.play(sonidoAleatorioAnimales, 1,1, 1, 0, 0);
+                    getWindow().getDecorView().setBackgroundColor(Color.YELLOW);
+
+                }else {
+                    getWindow().getDecorView().setBackgroundColor(Color.WHITE);
                 }
             }
 
@@ -120,8 +125,11 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 {
                     int[] sonidos = new int[]{car,bus};
                     int sonidoAleatorioVehiculos = sonidos[random.nextInt(sonidos.length)];
-                    soundPool.play(sonidoAleatorioVehiculos, 1,1, 1, 1, 0);                }else {
-                    getWindow().getDecorView().setBackgroundColor(Color.GREEN);
+                    soundPool.play(sonidoAleatorioVehiculos, 1,1, 1, 0, 0);
+                    getWindow().getDecorView().setBackgroundColor(Color.YELLOW);
+
+                }else {
+                    getWindow().getDecorView().setBackgroundColor(Color.WHITE);
                 }
             }
 

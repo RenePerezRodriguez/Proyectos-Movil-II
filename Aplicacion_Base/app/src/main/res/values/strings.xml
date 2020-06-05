@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplicacion Base</string>
+    <string name="buttonHoraEntrada">Hora de Entrada</string>
+    <string name="buttonHoraSalida">Hora de Salida</string>
+    <string name="tipoDeMovilidad_String">TIPO DE MOVILIDAD</string>
+    <string name="button">Calcular</string>
+
+    <string name="rbtParticular_String">PARTICULAR</string>
+    <string name="rbtPublico_String">PUBLICO</string>
+    <string name="rbtOficial_String">OFICIAL</string>
+
+    <string name="costoParqueo_String">COSTO PARQUEO</string>
+    <string name="descuento_String">DESCUENTO</string>
+    <string name="total_String">TOTAL A PAGAR</string>
+
+</resources>
