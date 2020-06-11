@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Asistencias QR</string>
+
+    <string name="login_String">Login</string>
+
+
+    <string name="register_String">REGISTER</string>
+
+    <string name="profilePicture">Profile Picture</string>
+
+    <string name="userName_String">User Name</string>
+    <string name="password_String">Password</string>
+    <string name="passwordRepeat_String">Repeat Password</string>
+
+    <string name="name_String">Name</string>
+    <string name="lastName_String"> Last Name</string>
+    <string name="email_String">Email</string>
+</resources>
